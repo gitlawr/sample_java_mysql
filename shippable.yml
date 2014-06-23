@@ -7,7 +7,7 @@ env:
 jdk: oraclejdk8
    #- openjdk6
    #- openjdk7
-
+script: echo $name
 after_success:
    - mvn clean cobertura:cobertura
    - mvn test
