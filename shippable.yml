@@ -1,13 +1,9 @@
 language: java
-env:
- global:
-   - secure: zdtFUwZVWbylWiH4hMm8D0a/JwskQFC7/waSsWhfo39VpWCQ9HD3xNzXMjUbrmIGJJVkiR0fKy/pMpdzm9oDU21uBMkS639zeB1RrPPw2cb0w+Ht1P15yWptohlQZPWuilhjw7I3lhtjGBliTwveoZUO682P9FQ1H+G6fkNAf+Tg4hkr14c6zE9E2f4DtGQDbCq1VghwjPvKgicGn9sWtV1XoYbb4pe66BDEyvVOOzaTdtJSFApZ3UlF92SiidDagtGC+WgV64HlDf4eoxwMXNdgXK42XqsKUi8gEvjZBP7dZkxkFFLdrHmbaGYkQZboEF1724GHy/K0i8XMqKbDvA==
-#matrix:
- #include:
+
 jdk: oraclejdk8
    #- openjdk6
    #- openjdk7
-script: echo $name
+
 after_success:
    - mvn clean cobertura:cobertura
    - mvn test
