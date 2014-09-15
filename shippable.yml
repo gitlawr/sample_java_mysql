@@ -9,5 +9,5 @@ after_success:
    - mvn test
    
 notifications:
-  email: vidyac.raghav@gmail.com
+  email: false
 
