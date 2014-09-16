@@ -11,3 +11,4 @@ after_success:
 notifications:
   email: false
 
+commit_container: vidyar/sample_java_mysql
