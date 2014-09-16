@@ -9,6 +9,6 @@ after_success:
    - mvn test
    
 notifications:
-  email: false
+  - email: false
 
 commit_container: vidyar/sample_java_mysql
