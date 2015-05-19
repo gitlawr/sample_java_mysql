@@ -12,4 +12,5 @@ after_success:
    
 
 #commit_container: vidyar/sample_java_mysql
+
 build_image: shippable/minv2
