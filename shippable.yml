@@ -10,8 +10,6 @@ after_success:
    - mvn clean cobertura:cobertura
    - mvn test
    
-notifications:
-   email: false
 
 #commit_container: vidyar/sample_java_mysql
 build_image: shippable/minv2
